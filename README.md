@@ -1,4 +1,5 @@
 # Vendor Reset
+![Build Status](https://copr.fedorainfracloud.org/coprs/kylegospo/vendor-reset-dkms/package/vendor-reset-dkms/status_image/last_build.png?)
 
 The goal of this project is to provide a kernel module that is capable of
 resetting hardware devices into a state where they can be re-initialized or
@@ -34,10 +35,9 @@ CONFIG_FUNCTION_TRACER=y
 
 ## Installing
 
-This module can be installed either using the standard `make`, `make install`
-pattern, or through `dkms` (recommended).
+You can get releases for Fedora, RHEL, CentOS, OpenSUSE, and OpenMandriva from my [Copr](https://copr.fedorainfracloud.org/coprs/kylegospo/vendor-reset-dkms/).
 
-    dkms install .
+If you wish to use this with Secure Boot, follow [this guide](https://gist.github.com/KyleGospo/9adbe078d1d7f160ae43c091df98f773).
 
 ## Usage
 
